@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "sitename": "Hello World",
+    "title": "Home | Harp",
+    "description": "page descripton",
+    "domain": "helloworld.com",
+    "uri": "http://helloworld.com/",
+    "slug": "index.html",
+    "ogimage": "http://helloworld.com/images/ogp.jpg",
+    "fbid": ""
+  }
+}

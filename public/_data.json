@@ -1,0 +1,13 @@
+{
+  "cases": {
+    "layout": "_layout",
+    "title": "Cases Page",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "slug": "cases/"
+  },
+  "navigation": {
+    "index": "Home",
+    "articles": "Artigos",
+    "cases": "Cases"
+  }
+}
