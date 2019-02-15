@@ -1,0 +1,22 @@
+{
+  "name": "harp-starter-theme",
+  "version": "1.0.0",
+  "description": "Starter theme for Harp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlescabral/harp-base.git"
+  },
+  "keywords": [
+    "harp"
+  ],
+  "author": "Charles Cabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlescabral/harp-base/issues"
+  },
+  "homepage": "https://github.com/charlescabral/harp-base#readme"
+}
