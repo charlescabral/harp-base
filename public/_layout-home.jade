@@ -3,5 +3,5 @@ html
   head
     link(rel="stylesheet" href="/src/main.css")
   body
-    != partial('includes/header')
+    != partial('includes/header', { title: "Diferent Header" })
     != yield

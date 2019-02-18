@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/charlescabral/harp-base/issues"
   },
-  "homepage": "https://github.com/charlescabral/harp-base#readme"
+  "homepage": "https://github.com/charlescabral/harp-base#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-shell": "^0.6.5",
+    "harp": "^0.29.0"
+  }
 }

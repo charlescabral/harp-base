@@ -5,7 +5,6 @@
     "description": "page descripton",
     "domain": "helloworld.com",
     "uri": "http://helloworld.com/",
-    "ogimage": "http://helloworld.com/images/ogp.jpg",
-    "fbid": ""
+    "ogimage": "http://helloworld.com/images/ogp.jpg"
   }
 }

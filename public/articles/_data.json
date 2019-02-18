@@ -1,6 +1,8 @@
 {
   "hello-world": {
     "title": "Hello World",
-    "date": "Feb 28, 2013"
+    "tagline": "A short description about this case",
+    "date": "19 Fev 2019",
+    "published": true
   }
 }
