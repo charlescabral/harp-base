@@ -1,0 +1,25 @@
+/**
+ * ITCSS
+ *
+ *  1. Settings...........Configuration and variables
+ *  2. Tools..............Functions and mixins
+ *  3. Generic............Pure styles definitions
+ *  4. Vendors............Suppliers base-style inclusions
+ *  5. Elements...........Style assignment to html tags (like H1, Ul, A etc...)
+ *  6. Objects............Common non-cosmetic structural design patterns
+ *  7. Components.........Specific cosmetic elements of UI
+ *  8. Utilities..........Helpers and overrides
+ *  9. Modules............Deals with the style of modules.
+ *
+ */
+
+@import './settings/**/*.scss';
+@import './tools/**/*.scss';
+@import './generic/**/*.scss';
+@import './vendors/**/*.scss';
+@import './elements/**/*.scss';
+@import './objects/**/*.scss';
+@import './components/**/*.scss';
+@import './utilities/**/*.scss';
+@import './../modules/**/*.scss';
+

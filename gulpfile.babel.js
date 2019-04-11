@@ -1,15 +1,20 @@
 import gulp from "gulp"
 import { series, parallel } from "gulp"
 import { path } from "./gulp/config"
-import { serve, reload } from "./gulp/tasks/servers/harp"
+import { serve, reload } from "./gulp/tasks/server"
+import { html } from './gulp/tasks/html'
+import { styles } from './gulp/tasks/styles'
 import { clean } from "./gulp/tasks/clean"
 
 const watcher = ()=> {
-  gulp.watch( path.harp.watch, series(reload))
+  gulp.watch( path.harp.watch, series(html, reload) )
+  gulp.watch( path.styles.watch, styles )
 }
 
-gulp.task('clean', series(clean))
+export const build = series(
+  clean,
+  parallel(html, styles)
+)
 
-export const build = series(clean)
-export const dev = series(serve, watcher)
+export const dev = series(build, serve, watcher)
 export default dev
